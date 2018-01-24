@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/style.css" media="screen">
+  </head>
+  <body class=body>
+
+
+      {%for post in posts%}
+
+      <h1>{{ post.book_title}}</h1>
+      <h2>{{post.book_author}}</h2>
+      <h3>{{post.text}}</h3>
+      <h4>Posted at:{{ post.date.strftime('%m/%d/%y at %G: %I%p')}}</h4>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      {%endfor%}
+
+
+  </body>
+</html>

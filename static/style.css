@@ -1,0 +1,44 @@
+
+.home {
+  background: rgb(211,211,211);
+  background-image: url("leaves.jpg");
+}
+
+
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px;
+
+    text-decoration: none;
+    display: inline-block;
+    position: center;
+
+}
+
+
+a:hover, a:active {
+    background-color: red;
+    
+
+}
+
+.body{
+background: lightsteelblue;
+text-align: center;
+color:white;
+  padding: 14px;
+
+}
+
+.new_post{
+background-image: url('boo.jpg');
+text-align: left;
+color: beige;
+
+
+}
+.post{
+color: inherit;
+}
